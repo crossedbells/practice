@@ -1,0 +1,53 @@
+void criarPilha(Pilha *p){
+
+    p -> topo = sinal;
+    p -> vetor = Max - 1;
+
+}
+
+void pushPilha(Pilha *p, char c){
+
+    if(!verificarPilhaCheia(p)){
+
+        p -> topo++;
+        p -> Tab[p -> topo] = c;
+
+    }
+
+}
+
+void popPilha(Pilha *p){
+    if(!verificarPilhaVazia(p)){
+
+        p -> topo--;
+
+    }
+
+
+}
+
+char acessarPilha(Pilha *p){
+
+    if(!verificarPilhaVazia){
+
+        return p -> Tab[p -> topo];
+
+
+    }
+
+    return fantasma;
+
+}
+
+
+bool verificarPilhaVazia(Pilha *p){
+
+    return (p -> topo == sinal);
+
+}
+
+bool verificarPilhaCheia(Pilha *p){
+
+    return(p->topo == MaxPilha - 1);
+
+}
